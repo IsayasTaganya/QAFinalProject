@@ -4,7 +4,7 @@ import org.junit.Test;
 public class DanielTests {
 
     @Test
-    public void ShoppingCartUpdatePTest() throws InterruptedException {
+    public void CartUpdatePTest() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
@@ -29,7 +29,7 @@ public class DanielTests {
     }
 
     @Test
-    public void ShoppingGUIbugTest() throws InterruptedException {
+    public void Shopping2Test() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";

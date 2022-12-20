@@ -4,7 +4,7 @@ import org.junit.Test;
 public class SwagLabsTests {
 
     @Test
-    public void ShoppingPTest() throws InterruptedException {
+    public void Shopping1Test() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
@@ -37,7 +37,7 @@ public class SwagLabsTests {
     }
 
     @Test
-    public void ShoppingCartUpdatePTest() throws InterruptedException {
+    public void UpdateCartTest() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
@@ -62,7 +62,7 @@ public class SwagLabsTests {
     }
 
     @Test
-    public void LockedUserNTest() throws InterruptedException {
+    public void LoginTest() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
@@ -86,14 +86,14 @@ public class SwagLabsTests {
     }
 
     @Test
-    public void ProductNameBUGTest() throws InterruptedException {
+    public void ProductNameTest() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
         String LoginSelector = "#login-button";
         String Username3Input = "problem_user";
         String PasswordInput = "secret_sauce";
-        String Expected = "Sauce Labs Backpack";
+        String Expected = "Sauce Labs Backpack";// or: "#item_4_title_link > div", "#item_4_title_link"
         String Actual;
         //declare
         Main selenium = new Main();
@@ -111,7 +111,7 @@ public class SwagLabsTests {
     }
 
     @Test
-    public void ShoppingGUIbugTest() throws InterruptedException {
+    public void Shopping2Test() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
@@ -141,14 +141,14 @@ public class SwagLabsTests {
     }
 
     @Test
-    public void SortOptionBUGTest() throws InterruptedException {
+    public void SortOptionTest() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
         String LoginSelector = "#login-button";
         String Username3Input = "problem_user";
         String PasswordInput = "secret_sauce";
-        String Expected = "Price (low to high)";
+        String Expected = "Price (low to high)";// or: "#header_container > div.header_secondary_container > div.right_component > span > select > option:nth-child(4)"
         String Actual;
         //declare
         Main selenium = new Main();

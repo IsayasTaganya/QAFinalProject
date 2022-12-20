@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class AmitTests {
     @Test
-    public void LockedUserNTest() throws InterruptedException {
+    public void LoginTest() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
@@ -27,7 +27,7 @@ public class AmitTests {
     }
 
     @Test
-    public void SortOptionBUGTest() throws InterruptedException {
+    public void SortOptionTest() throws InterruptedException {
         String url = "https://www.saucedemo.com/";
         String UsernameSelector = "#user-name";//
         String PasswordSelector = "#password";
