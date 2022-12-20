@@ -44,7 +44,7 @@ public class IsayasTests {
         String LoginSelector = "#login-button";
         String Username3Input = "problem_user";
         String PasswordInput = "secret_sauce";
-        String Expected = "Sauce Labs Backpack";// or: "#item_4_title_link > div", "#item_4_title_link"
+        String Expected = "Sauce Labs Backpack";
         String Actual;
         //declare
         Main selenium = new Main();
