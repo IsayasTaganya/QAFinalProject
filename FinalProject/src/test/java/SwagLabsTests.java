@@ -159,6 +159,7 @@ public class SwagLabsTests {
         selenium.getElement(PasswordSelector).sendKeys(PasswordInput);
         selenium.getElement(LoginSelector).click();
         selenium.getElement("#header_container > div.header_secondary_container > div.right_component > span > select").click();
+        selenium.getElement("#header_container > div.header_secondary_container > div.right_component > span > select > option:nth-child(3)").click();//"PRICE (LOW TO HIGH)"
         Actual = selenium.getElement("#header_container > div.header_secondary_container > div.right_component > span > span").getText();
         Assert.assertEquals(Expected,Actual);
         Thread.sleep(1000);
