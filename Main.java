@@ -1,13 +1,8 @@
-import io.netty.handler.codec.http.multipart.FileUpload;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.remote.ScreenshotException;
 
-import javax.imageio.stream.FileImageOutputStream;
-import java.io.*;
-import java.nio.channels.FileLock;
-import java.nio.file.Files;
 
 public class Main {
     WebDriver driver;
